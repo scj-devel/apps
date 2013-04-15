@@ -1,0 +1,3 @@
+This benchmark uses private memory for encapsulating code that leaks garbage. The result from the private memory is stored in a StringBuilder allocated in the outer scope. The StringBuilder is initialised with a buffer size of 30. When entering the private memory the length of the StringBuilder is reset to be able to reuse the buffer for output.
+Furthermore, the benchmark uses a static variable to store a SimplePrintStream object. The object is allocated in mission memory but a reference is stored in immortal memory by use of a static variable. This illegal assignment was not intended by the author and was first discovered by the privmem memory reference analysis.
+

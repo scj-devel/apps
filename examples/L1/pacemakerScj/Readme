@@ -1,0 +1,5 @@
+The ScjPacemaker example is a port of the example in [1]. The example demonstrate how to implement an interesting two level scheduling. It supports changing modes and changing the pace interval accordingly. This gives raise to interesting control flow and furthermore the example is fairly large. Comapred to the original version the example have been ported to the JOP/SCJ implementation. Originally, the example was designed as a level 2 SCJ application. As part of the port the application was turned into a level 1 SCJ application. It should be noted that the example uses two stub functions this is however not a problem for using it for memory reference analysis. 
+
+[1] http://dl.acm.org/citation.cfm?id=2388948
+
+
