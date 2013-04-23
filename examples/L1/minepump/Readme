@@ -1,0 +1,2 @@
+The scjminepump is inspired by the classical minepump textbook example. It was implemented as part of a master’s thesis project at Aalborg University. The example has been adapted to use the JOP/SCJ implementation. The example is straight forward. It does not pass references between scopes or contain complicated code that is hard to analyse.
+

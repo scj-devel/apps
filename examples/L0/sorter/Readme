@@ -1,0 +1,3 @@
+The quicksort example implements the quicksort sorting algorithm and runs it in a single event handler under a single mission. It is a fairly small example taken from the Scj-Checker project[1]. Compared to the original version all annotations have been stripped from the example.
+
+[1] http://sss.cs.purdue.edu/projects/oscj/checker/checker.html
