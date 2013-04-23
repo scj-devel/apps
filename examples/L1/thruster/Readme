@@ -1,0 +1,4 @@
+The Thruster-Engine example is from the Scj-Checker project[1] but stripped of annotations. It defines three missions
+two of which is related to termination and has interesting control-flow related to termination. 
+
+[1] http://sss.cs.purdue.edu/projects/oscj/checker/checker.html

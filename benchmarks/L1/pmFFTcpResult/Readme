@@ -1,0 +1,4 @@
+This becnhmark uses nested private memory to encapsulate functions in a Fast Fourier transform library which
+creates temporary objects that would otherwise have to be reclaimed by a garbage collector.
+The code demonstrates the usecase of reusing existing libraries in an SCJ application and was
+developed as part of ongoing activities in the CJ4ES project. 
